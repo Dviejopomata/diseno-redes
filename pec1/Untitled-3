@@ -1,0 +1,52 @@
+no interface port-channel 1
+no interface port-channel 2
+
+
+
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface Port-channel3, changed state to up
+
+%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/21 (100), with SW-OFFICE FastEthernet0/23 (1).
+
+%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/22 (100), with SW-OFFICE FastEthernet0/23 (1).
+
+%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/21 (100), with SW-OFFICE FastEthernet0/24 (1).
+
+%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/22 (100), with SW-OFFICE FastEthernet0/24 (1).
+
+%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/21 (100), with SW-OFFICE Port-channel2 (1).
+
+%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/22 (100), with SW-OFFICE Port-channel2 (1).
+%SPANTREE-2-RECV_PVID_ERR: Received 802.1Q BPDU on non trunk Port-channel2 VLAN1.
+
+%SPANTREE-2-BLOCK_PVID_LOCAL: Blocking Port-channel2 on VLAN0001. Inconsistent port type.
+
+
+%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/21 (100), with SW-OFFICE FastEthernet0/23 (1).
+
+%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/22 (100), with SW-OFFICE FastEthernet0/23 (1).
+
+%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/21 (100), with SW-OFFICE FastEthernet0/24 (1).
+
+%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/22 (100), with SW-OFFICE FastEthernet0/24 (1).
+
+%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/21 (100), with SW-OFFICE Port-channel2 (1).
+
+%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/22 (100), with SW-OFFICE Port-channel2 (1).
+
+%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/21 (100), with SW-OFFICE FastEthernet0/23 (1).
+
+%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/22 (100), with SW-OFFICE FastEthernet0/23 (1).
+
+%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/21 (100), with SW-OFFICE FastEthernet0/24 (1).
+
+%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/22 (100), with SW-OFFICE FastEthernet0/24 (1).
+
+%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/21 (100), with SW-OFFICE Port-channel2 (1).
+
+%CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/22 (100), with SW-OFFICE Port-channel2 (1).
+
+int fa0/21
+switchport mode trunk
+
+int fa0/22

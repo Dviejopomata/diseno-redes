@@ -1,0 +1,23 @@
+
+interface fa0/6
+switchport mode access
+no shutdown
+switchport port-security
+switchport port-security maximum 1
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+interface fa0/11
+switchport mode access
+no shutdown
+switchport port-security
+switchport port-security maximum 1
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+interface fa0/18
+switchport mode access
+no shutdown
+switchport port-security
+switchport port-security maximum 1
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+exit

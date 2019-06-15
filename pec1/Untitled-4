@@ -1,0 +1,52 @@
+
+## Configuracion S1
+int fa0/4 
+switchport mode trunk
+int fa0/3
+switchport mode trunk
+
+int range fa0/2 - fa0/4
+channel-group 1 mode on
+int port-channel 1
+switchport mode trunk
+
+int range fa0/1 - fa0/3
+channel-group 2 mode on
+int port-channel 2
+switchport mode trunk
+
+## Configuracion S2
+int fa0/6 
+switchport mode trunk
+int fa0/7
+switchport mode trunk
+
+int range fa0/4 - fa0/6
+channel-group 1 mode on
+int port-channel 1
+switchport mode trunk
+
+int range fa0/5 - fa0/7
+channel-group 2 mode on
+int port-channel 2
+switchport mode trunk
+
+
+## Configuracion S3 - S1
+int fa0/6 
+switchport mode trunk
+int fa0/7
+switchport mode trunk
+
+int range fa0/6 - fa0/5
+channel-group 1 mode on
+int port-channel 1
+switchport mode trunk
+
+int range fa0/1 - fa0/7
+channel-group 2 mode on
+int port-channel 2
+switchport mode trunk
+
+
+

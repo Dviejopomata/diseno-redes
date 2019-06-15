@@ -1,0 +1,5 @@
+# CORE
+int fa0/21
+switchport mode trunk
+int fa0/22
+switchport mode trunk

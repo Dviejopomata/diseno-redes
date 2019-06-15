@@ -1,0 +1,62 @@
+
+# S2
+int fa0/1
+switchport mode access
+no shutdown
+switchport port-security
+switchport port-security maximum 1
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+switchport access vlan 10
+exit
+
+int fa0/2
+switchport mode access
+no shutdown
+switchport port-security
+switchport port-security maximum 1
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+switchport access vlan 20
+exit
+
+int fa0/3
+switchport mode access
+no shutdown
+switchport port-security
+switchport port-security maximum 1
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+switchport access vlan 30
+exit
+
+# S3
+int fa0/2
+switchport mode access
+no shutdown
+switchport port-security
+switchport port-security maximum 1
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+switchport access vlan 10
+exit
+
+int fa0/3
+switchport mode access
+no shutdown
+switchport port-security
+switchport port-security maximum 1
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+switchport access vlan 20
+exit
+
+int fa0/4
+switchport mode access
+no shutdown
+switchport port-security
+switchport port-security maximum 1
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+switchport access vlan 30
+exit
