@@ -86,7 +86,7 @@ spanning-tree vlan 10,20,30 root secondary
 int fa0/5
 switchport mode trunk
 
-# 7.2 EtcherChannel
+# 7.2 EtherChannel
 ##  Anadimos un cable entre cada switch
 ## S1
 int fa0/1
